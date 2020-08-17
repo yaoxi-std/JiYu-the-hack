@@ -42,6 +42,10 @@ namespace JiYu{
         }
         private static void printUsages(){
             Console.WriteLine("Usage: ");
+            Console.WriteLine("cd (also changedir) [new-directory]     : Change the working directory.");
+            Console.WriteLine("exe (also execute) [executable-path     : Execute an executable file on the target computer.");
+            Console.WriteLine("cp (also copy) [file-from] [file-to]    : Copy from [file-from] to [file-to].");
+            Console.WriteLine("help                                    : Show this usage.");
         }
         private static void printCopyrights(){
             Console.WriteLine("JiYu - the - hack      version 0.0.1");
@@ -96,7 +100,7 @@ namespace JiYu{
                             break;
                     }                    
                 }catch(IndexOutOfRangeException){
-                    Console.WriteLine("ERROR: Too few index!");
+                    Console.WriteLine("ERROR: Too few args!");
                 }catch(Exception e){
                     Console.WriteLine(e.ToString());
                 }
