@@ -47,7 +47,8 @@ namespace JiYu{
             Console.WriteLine("Copyright (C) yaoxi_std. All rights reserved.\n");
             Console.WriteLine("This program is provided as a tool to control your classmates' computers");
             Console.WriteLine("using the leaks in Mythware JiYu.\n");
-            Console.WriteLine("If you want, please donate me on GitHub at ''.\n");
+            Console.WriteLine("If you want, please donate me on GitHub at");
+            Console.WriteLine("'https://github.com/yaoxi-std/JiYu-the-hack'.\n");
         }
         private static string[] getSubSequence(string[] source, int beginIndex, int endIndex){
             if(endIndex == -1) endIndex = source.Length;
