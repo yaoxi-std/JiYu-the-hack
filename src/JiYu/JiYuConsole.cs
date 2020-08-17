@@ -44,6 +44,7 @@ namespace JiYu{
             Console.WriteLine("Usage: ");
         }
         private static void printCopyrights(){
+            Console.WriteLine("JiYu - the - hack      version 0.0.1");
             Console.WriteLine("Copyright (C) yaoxi_std. All rights reserved.\n");
             Console.WriteLine("This program is provided as a tool to control your classmates' computers");
             Console.WriteLine("using the leaks in Mythware JiYu.\n");
