@@ -10,4 +10,4 @@ run:
 	$(CS) /out:debug.exe $(CS_SCRIPTS)
 	debug.exe
 build:
-	$(CS) /out:$(PROJ_NAME).exe /platform:x86 /icon:resources/icon.png $(CS_SCRIPTS)
+	$(CS) /out:$(PROJ_NAME).exe /platform:x86 /win32icon:resources/icon.ico $(CS_SCRIPTS)
